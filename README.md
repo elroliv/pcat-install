@@ -6,7 +6,8 @@ Tested on Mac
 ```python3 get-pip.py```
 
 ### export path
-```export PATH="$PATH:/Users/MY_USER/Library/Python/3.8/bin"```
+add in your ~/.zshrc 
+```export PATH=/Users/YOUR_SYSTEM_USERNAME/Library/Python/3.8/bin:$PATH```
 
 ### update pip
 ```pip3 install -U pip```
